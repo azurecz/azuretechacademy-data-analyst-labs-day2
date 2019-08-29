@@ -78,17 +78,3 @@ After your VM is running, use the **Notebook VMs** section to launch the Jupyter
 
 In **part two** of the tutorial you run the code in `tutorial-1st-experiment-sdk-train.ipynb` to train a machine learning model.
 
-
-### Prepare environment
-
-```shell
-pip install --upgrade azureml-sdk[explain,automl,notebooks] azureml-opendatasets azureml-widgets "urllib3==1.24"
-```
-
-
-Azure Open Datsets
-[link to Azure Open Dataset info](https://docs.microsoft.com/en-us/azure/open-datasets/overview-what-are-open-datasets)
-
-
-We will use particular dataset: [NYC Taxi & Limousine Commission - green taxi trip records](https://azure.microsoft.com/en-us/services/open-datasets/catalog/nyc-taxi-limousine-commission-green-taxi-trip-records/)
-
