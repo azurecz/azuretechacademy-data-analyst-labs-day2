@@ -8,5 +8,18 @@
 - Cognitive Services
 
 ## Hands-on labs 
-- Computer Vision
-- Azure Machine Learning
+
+### Computer Vision 
+This labs guides you trhough createing image classication model in Custom Vision and accesing the model in PowerApps.
+
+Contents: [HOL01 - Cognitive Services](./HOL01-Cogs)
+
+### Azure Machine Learning
+In this lab you get a grasp of Azre machine Learning serive Python SDK and Automated ML module.
+
+Contents: [HOL02 - Azure Machine Learning service](./HOL02-AML)
+
+### Azure Databricks 
+Lets have a look on Azure Databricks platform and Spark ETL processing pipeline.
+
+Contents: [HOL03 - Databricks](./HOL03-Databricks)
