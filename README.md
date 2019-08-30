@@ -1,5 +1,6 @@
-# Day#2 – AI & ML
-## azuretechacademy-data-analyst-labs-day2
+![alt text](https://www.microsoftevents.com/accounts/register123/microsoft/msft-v1/c-and-e-v2/events/ce2-ce-2c-mec0028133/Azure%20Academy%20banner_Data.png)
+
+# Azure Academy - Data Analyst - Day#2 – AI & ML
 
 ## Presentations
 - Azure AI Platform overview
