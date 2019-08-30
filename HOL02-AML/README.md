@@ -102,5 +102,5 @@ After that you should see something similar:
 ![cloned_repo](./media/jupyer-cloned-repo.jpg)
 
 1. Go to lab notebook:
-`HOL01-Azure Machine Learning service.ipynb`
+`HOL-Azure Machine Learning service.ipynb` in HOL02-AML folder in the cloned repo.
 
