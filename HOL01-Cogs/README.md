@@ -19,11 +19,14 @@ Create an intelligent application for image classification using AI service. Com
 ### 1. CustomVision (https://cusomvision.ai)
 1. create CustomVision project - classification
 ![alt text](./assets/create_project.jpg "create_project")
-2. upload images
-3. train
+1. upload images - get data from [zip file](./Cars.zip)
+1. label / tag images to separate classes within CustomVision portal
+1. run training!
 ![alt text](./assets/train.jpg "train")
-4. test
+1. quick test with one of the test images
 ![alt text](./assets/test.jpg "test")
+
+You have now created a first model for car classification.
 
 ### 2. PowerApps (https://powerapps.microsoft.com)
 1. create PowerApps application - phone layout
