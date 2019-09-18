@@ -28,7 +28,13 @@ Create an intelligent application for image classification using AI service. Com
 
 You have now created a first model for car classification.
 
-### 2. PowerApps (https://powerapps.microsoft.com)
+
+### 2. Test the created model by callin Custom Vision API
+
+Go to [Jupyter Notebook] `CustomVision-Prediction-API.ipynb` in `HOL1-Cogs` folder and follow the steps. 
+
+
+### [OPTIONAL] 2. PowerApps (https://powerapps.microsoft.com)
 1. create PowerApps application - phone layout
 ![alt text](./assets/app1.jpg "app")
 2. add elements: labels, media
