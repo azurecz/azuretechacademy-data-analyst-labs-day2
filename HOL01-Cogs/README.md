@@ -17,7 +17,7 @@ Create an intelligent application for image classification using AI service. Com
 
 ## Guide
 ### 1. CustomVision (https://cusomvision.ai)
-1. create CustomVision project - classification
+1. create CustomVision project - classification (select Multiclass - from Classification types choices)
 ![alt text](./assets/create_project.jpg "create_project")
 1. upload images - get data from [zip file](./Cars.zip)
 1. label / tag images to separate classes within CustomVision portal
@@ -35,7 +35,9 @@ You have now created a first model for car classification.
 ![alt text](./assets/app_layout.jpg "app")
 3. add CustomVision as datasource [prediction key]
 ![alt text](./assets/app_datasource.jpg "app")
-4. add media button action to score image (onselect, onchange): `UpdateContext({res:CustomVision.PredictImage("xxxxxxxx-xxxx-xxx-xxxx-xxxxxx", UploadedImage1).Predictions})`
+4. select "AddMediaButton1" and put into `OnChange` action scoring the image (use your CustomVision project ID insted of `xxx...`): 
+`UpdateContext({res:CustomVision.PredictImage("xxxxxxxx-xxxx-xxx-xxxx-xxxxxx", UploadedImage1).Predictions})`
+
 5. update label property to update text based on results (text): `Concatenate("Probability: ",Text(First(res).Probability))`
 6. save & publish the app
 
