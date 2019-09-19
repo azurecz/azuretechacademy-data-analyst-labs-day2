@@ -31,7 +31,19 @@ You have now created a first model for car classification.
 
 ### 2. Test the created model by callin Custom Vision API
 
-Go to [Jupyter Notebook] `CustomVision-Prediction-API.ipynb` in `HOL1-Cogs` folder and follow the steps. 
+1. Go to [https://notebooks.azure.com/](https://notebooks.azure.com/) and log in with your Azure credentials.
+1. Go to My Projects (upper left)
+1. Import Git Repo (`azurecz/azuretechacademy-data-analyst-labs-day2`)
+![xxx](./assets/ntb1.png "x")
+1. check the import was successfull
+![xxx](./assets/ntb2.png "x")
+1. go to `HOL01-Cogs` folder and select [Jupyter Notebook] `CustomVision-Prediction-API.ipynb` in `HOL1-Cogs` folder and follow the steps. 
+
+> note: if you see error for missing kernell select Python 3.6
+![xxx](./assets/ntner.png "zx")
+
+> note: change first code cell from `!/data/anaconda/envs/py36/bin/pip install azure-cognitiveservices-vision-customvision` to `!pip install azure-cognitiveservices-vision-customvision`
+![xxx](./assets/ntb3.png)
 
 
 ### [OPTIONAL] 2. PowerApps (https://powerapps.microsoft.com)
